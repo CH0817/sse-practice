@@ -1,13 +1,13 @@
-package tw.com.rex;
+package tw.com.rex.sse.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SsePracticeApplication {
+public class ClientSideApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SsePracticeApplication.class, args);
+        SpringApplication.run(ClientSideApplication.class, args);
     }
 
 }
